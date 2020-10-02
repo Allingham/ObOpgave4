@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ObOpgave1\OO1Classlibrary\OO1Classlibrary.csproj" />
+    <ProjectReference Include="..\OO1Classlibrary\OO1Classlibrary.csproj" />
   </ItemGroup>
 
 
