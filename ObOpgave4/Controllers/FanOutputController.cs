@@ -22,7 +22,6 @@ namespace ObOpgave4.Controllers
             set => _id = value;
         }
 
-
         private static readonly Random rng = new Random();
 
         private static readonly List<FanOutput> fanOutputs = new List<FanOutput>()

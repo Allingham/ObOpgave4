@@ -51,6 +51,9 @@ namespace OO1Classlibrary
             Humidity = humidity;
         }
 
-
+        public override string ToString()
+        {
+            return $"{nameof(ID)}: {ID}, {nameof(Name)}: {Name}, {nameof(Temp)}: {Temp}, {nameof(Humidity)}: {Humidity}";
+        }
     }
 }
