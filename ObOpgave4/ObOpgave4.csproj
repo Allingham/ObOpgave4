@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="OO1Classlibrary">
-      <HintPath>..\..\ObOpgave1\OO1Classlibrary\obj\Debug\netcoreapp3.1\OO1Classlibrary.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\ObOpgave1\OO1Classlibrary\OO1Classlibrary.csproj" />
   </ItemGroup>
 
 
